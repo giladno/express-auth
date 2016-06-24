@@ -1,0 +1,28 @@
+{
+  "name": "express-auth",
+  "version": "1.0.0",
+  "description": "Express authentication middleware",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giladno/express-auth.git"
+  },
+  "author": "Gilad Novik <gilad@novik.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giladno/express-auth/issues"
+  },
+  "homepage": "https://github.com/giladno/express-auth#readme",
+  "scripts": {
+    "lint": "eslint *.js platforms"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "bs58": "^3.0.0",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.14.0",
+    "request": "^2.72.0",
+    "require-all": "^2.0.0"
+  }
+}
